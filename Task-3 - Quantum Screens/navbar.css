@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  background-color: rgb(1 0 27);
+  height: 50px;
+  border-bottom: 4px solid #31b9e4;
+}
+
+.logo {
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo i {
+  color: yellow;
+  font-size: 30px;
+}
+
+.descriptor {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+}

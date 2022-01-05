@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task - 3 : Quantum screens</title>
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            min-height: 500px;
+            background-color: #EEEEEE;
+            flex-direction: column;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <i class="fal fa-lightbulb"></i>
+        </div>
+        <div class="descriptor">
+            <p>Quantum</p>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="loginForm">
+            <div class="header">
+                <div class="backArrow">&larr;</div>
+                <div class="desc">Log in with Quantum</div>
+            </div>
+            <form action="">
+                <div class="radioSelector">
+                    <input type="radio" name="radio" id="radio" value="District" checked> District
+                    <input type="radio" name="radio" id="radio" value="independent school"> independent school
+                </div>
+                <div class="state">
+                    <label for="state">State</label>
+                    <select name="state" id="state">
+                        <option value="Zeus learning">Zeus learning</option>
+                    </select>
+                </div>
+                <div class="district">
+                    <label for="district">District</label>
+                    <select name="district" id="district">
+                        <option value="Zeus learning">Zeus learning</option>
+                    </select>
+                </div>
+                <div class="username">
+                    <input type="text" name="username" placeholder="Username/Email" id="username">
+                    <a href="/">FORGOT USERNAME?</a>
+                </div>
+                <div class="password">
+                    <div class="input">
+                        <input type="password" name="password" placeholder="Password" id="password">
+                        <i class="fas fa-eye"></i>
+                        <!-- <i class="far fa-eye-slash"></i> -->
+                    </div>
+                    <a href="/">FORGOT PASSWORD?</a>
+                </div>
+                <div class="remember">
+                    <input type="checkbox" name="rememberme" id="rememberme">
+                    <p>Remember Me</p>
+                </div>
+                <div class="loginButton">
+                    <button>LOG IN</button>
+                </div>
+            </form>
+        </div>
+        <div class="links">
+            <p><a href="./about.html">About </a> | <a href="./contact.html">Contact us</a></p>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footerDiv">
+            <p><i class="fal fa-lightbulb"></i> <strong> Quantum</strong> | Copyright &copy; 2020-2021 <strong>Zeus
+                    Learning Pvt Ltd.</strong> All rights
+                are reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
