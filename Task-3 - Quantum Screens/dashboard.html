@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Quantum</title>
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./dashboard.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <i class="fal fa-lightbulb"></i>
+        </div>
+        <div class="descriptor">
+            <p>Quantum</p>
+        </div>
+        <div class="grid">
+            <div class="absoluteDiv">
+                <div class="dashboard active">DASHBOARD</div>
+                <div class="content">CONTENT</div>
+                <div class="users">USERS</div>
+                <div class="reports">REPORTS</div>
+                <div class="admin">ADMIN</div>
+            </div>
+            <div class="notification">
+                <i class="fas fa-bell"></i>
+                <p>2</p>
+            </div>
+            <div class="notice"><i class="fa fa-bullhorn"></i>
+                <p>1</p>
+            </div>
+            <div class="profile">
+                <div class="profileImg">
+                    <img src="./jainish.jpg" alt="No Image">
+                </div>
+                <p>T</p>
+            </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="moover">
+            <div class="courses"><i class="far fa-book-spells"></i> &nbsp; 4 Courses</div>
+            <div class="classes"><i class="fas fa-user-friends"></i> &nbsp; 4 Classes</div>
+        </div>
+        <div class="contentDesc">
+            <div class="numberOfItems">
+                Showing 4 of 4 courses
+            </div>
+            <div class="sortBy">
+                <form class="sort">
+                    <label for="sort">Sort By : </label>
+                    <select name="sort" id="sort">
+                        <option value="Course Name">Course Name</option>
+                        <option value="Length Of Course">Length of Course</option>
+                        <option value="Date Of Publish">Date Of Publish</option>
+                    </select>
+                    <i>&uarr;</i>
+                </form>
+            </div>
+        </div>
+        <div class="contents">
+            <div class="content">
+                <div class="desc">
+                    <div class="img">
+                        <img src="./Quantum-Physics.jpg" alt="Quantum-Physics">
+                    </div>
+                    <div class="written">
+                        <div class="heading">
+                            <div class="head">Acceleration</div>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="subject-grade">
+                            <p>Physics | Grade 7 <i>+2</i></p>
+                        </div>
+                        <div class="units-lesson-topics">
+                            <div class="units"><b>4</b> Units</div>
+                            <div class="lessons"><b>18</b> Lessons</div>
+                            <div class="topics"><b>24</b> Topics</div>
+                        </div>
+                        <div class="classesAvailable">
+                            <select name="class" id="class">
+                                <option value="Mr.Franks's Class B">Mr.Franks's Class B</option>
+                            </select>
+                            <div class="student-date">
+                                <div class="student">50 students</div> | <div class="date">21-Jan-2020 - 21Aug-2020
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="action">
+                    <div class="see"><i class="fa fa-eye"></i></div>
+                    <div class="date"><i class="far fa-calendar-alt"></i></div>
+                    <div class="buy"><i class="fas fa-shopping-bag"></i></div>
+                    <div class="history"><i class="far fa-chart-bar"></i></i></div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="desc">
+                    <div class="img">
+                        <img src="./chemistry" alt="Chemistry">
+                    </div>
+                    <div class="written">
+                        <div class="heading">
+                            <div class="head">Displacement, Velocity and Speed</div>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="subject-grade">
+                            <p>Physics 2 | Grade 6 <i>+3</i></p>
+                        </div>
+                        <div class="units-lesson-topics">
+                            <div class="units"><b>2</b> Units</div>
+                            <div class="lessons"><b>15</b> Lessons</div>
+                            <div class="topics"><b>20</b> Topics</div>
+                        </div>
+                        <div class="classesAvailable">
+                            <select name="class disabled" id="class" disabled>
+                                <option value="Mr.Franks's Class B">No Classes</option>
+                            </select>
+                            <!-- <div class="student-date">
+                                <div class="student">50 students</div> | <div class="date">21-Jan-2020 - 21Aug-2020
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="action">
+                    <div class="see"><i class="fa fa-eye"></i></div>
+                    <div class="date"><i class="far fa-calendar-alt disabled"></i></div>
+                    <div class="buy"><i class="fas fa-shopping-bag disabled"></i></div>
+                    <div class="history"><i class="far fa-chart-bar"></i></i></div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="desc">
+                    <div class="img">
+                        <img src="./physics.jpg" alt="Physics">
+                    </div>
+                    <div class="written">
+                        <div class="heading">
+                            <div class="head">Introduction to Biology: Micro organisms and how they affec...</div>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="subject-grade">
+                            <p>Biology | Grade 4 <i>+1</i></p>
+                        </div>
+                        <div class="units-lesson-topics">
+                            <div class="units"><b>5</b> Units</div>
+                            <div class="lessons"><b>16</b> Lessons</div>
+                            <div class="topics"><b>22</b> Topics</div>
+                        </div>
+                        <div class="classesAvailable">
+                            <select name="class" id="class">
+                                <option value="All Classes">All Classes</option>
+                            </select>
+                            <div class="student-date">
+                                <div class="student">300 students</div>
+                                <!-- | <div class="date">21-Jan-2020 - 21Aug-2020 -->
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="action">
+                    <div class="see"><i class="fa fa-eye"></i></div>
+                    <div class="date"><i class="far fa-calendar-alt disabled"></i></div>
+                    <div class="buy"><i class="fas fa-shopping-bag disabled"></i></div>
+                    <div class="history"><i class="far fa-chart-bar"></i></i></div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="expired">
+                    <p>EXPIRED</p>
+                </div>
+                <div class="desc">
+                    <div class="img">
+                        <img src="./biology.jpg" alt="Quantum-Physics">
+                    </div>
+                    <div class="written">
+                        <div class="heading">
+                            <div class="head">Introduction to High School Mathematics</div>
+                            <i class="fas fa-star" style="color: #EEEEEE;"></i>
+                        </div>
+                        <div class="subject-grade">
+                            <p>Mathematics | Grade 8 <i>+3</i></p>
+                        </div>
+                        <!-- <div class="units-lesson-topics">
+                            <div class="units"><b>4</b> Units</div>
+                            <div class="lessons"><b>18</b> Lessons</div>
+                            <div class="topics"><b>24</b> Topics</div>
+                        </div> -->
+                        <div class="classesAvailable">
+                            <select name="class" id="class">
+                                <option value="Mr.Franks's Class B">Mr.Franks's Class A</option>
+                            </select>
+                            <div class="student-date">
+                                <div class="student">44 students</div> | <div class="date">14-Oct-2019 - 20-Oct-2020
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="action">
+                    <div class="see"><i class="fa fa-eye"></i></div>
+                    <div class="date"><i class="far fa-calendar-alt"></i></div>
+                    <div class="buy"><i class="fas fa-shopping-bag"></i></div>
+                    <div class="history"><i class="far fa-chart-bar"></i></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="links">
+            <p><a href="./about.html">About </a> | <a href="./contact.html">Contact us</a></p>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footerDiv">
+            <p><i class="fal fa-lightbulb"></i> <strong> Quantum</strong> | Copyright &copy; 2020-2021 <strong>Zeus
+                    Learning Pvt Ltd.</strong> All rights
+                are reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

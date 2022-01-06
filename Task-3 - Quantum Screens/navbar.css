@@ -7,6 +7,7 @@ nav {
   display: flex;
   background-color: rgb(1 0 27);
   height: 50px;
+  position: relative;
   border-bottom: 4px solid #31b9e4;
 }
 
@@ -30,4 +31,199 @@ nav {
   align-items: center;
   justify-content: center;
   padding-left: 10px;
+}
+.grid {
+  position: absolute;
+  right: 0px;
+  align-content: center;
+  height: 100%;
+  display: grid;
+  grid-template-areas: "absoluteDiv notification notice profile";
+  grid-gap: 20px;
+  font-family: quicksand;
+  align-items: center;
+  padding-right: 10px;
+}
+.absoluteDiv {
+  grid-area: absoluteDiv;
+  display: grid;
+  height: 100%;
+  align-content: center;
+  align-items: center;
+  grid-gap: 20px;
+  grid-template-areas: "dashboard content users reports admin";
+}
+.burger {
+  display: none;
+  grid-area: burger;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 4px;
+  border: 1px solid #3fd28b;
+  padding: 5px;
+}
+.burger .line {
+  width: 25px;
+  height: 3px;
+  background-color: #3fd28b;
+}
+.dashboard {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: #3fd28b;
+  grid-area: dashboard;
+}
+nav .content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: #3fd28b;
+  grid-area: content;
+}
+.users {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: #3fd28b;
+  grid-area: users;
+}
+.reports {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: #3fd28b;
+  grid-area: reports;
+}
+.admin {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: #3fd28b;
+  grid-area: admin;
+}
+.notification {
+  display: flex;
+  align-items: center;
+  grid-area: notification;
+  color: #3fd28b;
+  margin: 0px 10px;
+  position: relative;
+}
+.notification p,
+.notice p {
+  position: absolute;
+  top: -10px;
+  right: -7px;
+  width: 15px;
+  height: 15px;
+  z-index: 1;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #2a7ff3;
+}
+.notice p {
+  right: -10px;
+}
+.notice {
+  display: flex;
+  align-items: center;
+  grid-area: notice;
+  color: #3fd28b;
+  margin: 0px 10px;
+  position: relative;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  grid-area: profile;
+  position: relative;
+}
+.profile p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 50%;
+  color: black;
+  background-color: white;
+  height: 15px;
+  width: 15px;
+  font-size: 10px;
+  right: -3px;
+  top: -3px;
+  z-index: 1;
+}
+.profile .profileImg {
+  border: 2px solid #3fd28b;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+.profile .profileImg img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.active {
+  color: white !important;
+  border-bottom: 2px solid white;
+}
+.footer {
+  background-color: #00000029;
+  height: 50px;
+  text-align: center;
+}
+.footer .footerDiv {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.footer i {
+  color: #a58c11;
+  font-size: 18px;
+}
+.links a {
+  color: #1f7a54;
+  margin: 10px;
+  text-decoration: none;
+}
+.links {
+  text-align: center;
+  margin: 20px;
+}
+
+@media screen and (max-width: 850px) {
+  .grid {
+    grid-template-areas: "notification notice profile burger";
+  }
+  .burger {
+    display: grid;
+  }
+  .contents {
+    grid-template-columns: 1fr !important;
+  }
+  .absoluteDiv {
+    display: none;
+    padding: 10px 0px;
+    position: absolute;
+    justify-items: center;
+    background-color: rgb(1 0 27);
+    top: 49px;
+    width: -webkit-fill-available;
+    grid-template-areas:
+      "dashboard"
+      "content"
+      "users"
+      "reports"
+      "admin";
+    height: max-content;
+    z-index: 1;
+  }
+  .absoluteDiv:hover {
+    display: grid;
+  }
 }
