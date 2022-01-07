@@ -1,3 +1,7 @@
+body {
+  font-family: "Quicksand" !important;
+}
+
 .loginForm {
   border-top: 3px solid #3ac7ec;
   display: flex;
