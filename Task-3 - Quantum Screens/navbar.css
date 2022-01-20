@@ -312,6 +312,8 @@ nav .content {
   width: 100%;
   box-shadow: 0px 1px 6px #0000003d;
   padding: 5px 0px;
+  z-index: 1;
+  background-color: white;
 }
 .announcementDiv .buttons button {
   color: #1f7a54;

@@ -152,8 +152,20 @@ body {
   display: grid;
   margin: 0px 20px 0px 20px;
   border-top: 1px solid black;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "see buy date history";
   width: auto;
+}
+.contents .content .action .see {
+  grid-area: see;
+}
+.contents .content .action .buy {
+  grid-area: buy;
+}
+.contents .content .action .date {
+  grid-area: date;
+}
+.contents .content .action .history {
+  grid-area: history;
 }
 .contents .content .action .see,
 .contents .content .action .date,
