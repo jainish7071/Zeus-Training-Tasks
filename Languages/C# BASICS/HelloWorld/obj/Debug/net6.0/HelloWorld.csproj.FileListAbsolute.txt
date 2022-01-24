@@ -1,0 +1,15 @@
+D:\internships\Zues Learning\Languages\C# BASICS\HelloWorld\bin\Debug\net6.0\HelloWorld.exe
+D:\internships\Zues Learning\Languages\C# BASICS\HelloWorld\bin\Debug\net6.0\HelloWorld.deps.json
+D:\internships\Zues Learning\Languages\C# BASICS\HelloWorld\bin\Debug\net6.0\HelloWorld.runtimeconfig.json
+D:\internships\Zues Learning\Languages\C# BASICS\HelloWorld\bin\Debug\net6.0\HelloWorld.dll
+D:\internships\Zues Learning\Languages\C# BASICS\HelloWorld\bin\Debug\net6.0\ref\HelloWorld.dll
+D:\internships\Zues Learning\Languages\C# BASICS\HelloWorld\bin\Debug\net6.0\HelloWorld.pdb
+D:\internships\Zues Learning\Languages\C# BASICS\HelloWorld\obj\Debug\net6.0\HelloWorld.csproj.AssemblyReference.cache
+D:\internships\Zues Learning\Languages\C# BASICS\HelloWorld\obj\Debug\net6.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+D:\internships\Zues Learning\Languages\C# BASICS\HelloWorld\obj\Debug\net6.0\HelloWorld.AssemblyInfoInputs.cache
+D:\internships\Zues Learning\Languages\C# BASICS\HelloWorld\obj\Debug\net6.0\HelloWorld.AssemblyInfo.cs
+D:\internships\Zues Learning\Languages\C# BASICS\HelloWorld\obj\Debug\net6.0\HelloWorld.csproj.CoreCompileInputs.cache
+D:\internships\Zues Learning\Languages\C# BASICS\HelloWorld\obj\Debug\net6.0\HelloWorld.dll
+D:\internships\Zues Learning\Languages\C# BASICS\HelloWorld\obj\Debug\net6.0\ref\HelloWorld.dll
+D:\internships\Zues Learning\Languages\C# BASICS\HelloWorld\obj\Debug\net6.0\HelloWorld.pdb
+D:\internships\Zues Learning\Languages\C# BASICS\HelloWorld\obj\Debug\net6.0\HelloWorld.genruntimeconfig.cache
